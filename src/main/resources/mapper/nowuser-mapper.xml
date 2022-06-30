@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nowcoder.community.dao.NowuserMapper">
+    <sql id="selectFields">
+        id,username,userpass,salt,email,user_type,user_status,activation_code,header_url,create_time
+    </sql>
+    <select id="selectById" resultType="Nowuser">
+        select <include refid="selectFields"></include>
+        from Nowuser
+        where id=#{id}
+    </select>
+    <select id="selectByEmail" resultType="Nowuser">
+        select <include refid="selectFields"></include>
+        from Nowuser
+        where email=#{email}
+    </select>
+    <select id="selectByName" resultType="Nowuser">
+        select <include refid="selectFields"></include>
+        from Nowuser
+        where username=#{username}
+    </select>
+    <insert id="insertNowuser">
+        insert into Nowuser(username,userpass,salt,email,user_type,user_status,activation_code,header_url,create_time)
+         values (#{username},#{userpass},#{salt},#{email},#{userType},#{userStatus},#{activationCode},#{headerUrl},#{createTime})
+    </insert>
+    <update id="updateStatus">
+        update Nowuser
+        set user_status=#{userStatus}
+        where id=#{id}
+    </update>
+    <update id="updateHeader">
+        update Nowuser
+        set header_url=#{headerUrl}
+        where id=#{id}
+    </update>
+    <update id="updateUserpass">
+        update Nowuser
+        set userpass=#{userpass}
+        where id=#{id}
+    </update>
+</mapper>

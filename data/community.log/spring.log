@@ -1,0 +1,106 @@
+2022-06-29 22:52:34.836  INFO 31736 --- [main] com.nowcoder.community.LoggerTests       : Starting LoggerTests using Java 1.8.0_121 on LAPTOP-UJO7RRHB with PID 31736 (started by hp in D:\MyStudy_22\Work\Spring Work\community)
+2022-06-29 22:52:34.840  INFO 31736 --- [main] com.nowcoder.community.LoggerTests       : No active profile set, falling back to 1 default profile: "default"
+2022-06-29 22:52:36.899  INFO 31736 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-06-29 22:52:36.902  INFO 31736 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-06-29 22:52:36.916  INFO 31736 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
+2022-06-29 22:52:36.935  INFO 31736 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-06-29 22:52:36.937  INFO 31736 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-29 22:52:36.946  INFO 31736 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2022-06-29 22:52:37.854  INFO 31736 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-29 22:52:38.155  INFO 31736 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-29 22:52:38.421  INFO 31736 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-29 22:52:38.539  INFO 31736 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-29 22:52:38.851  INFO 31736 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-29 22:52:39.658  INFO 31736 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2022-06-29 22:52:39.911  INFO 31736 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-29 22:52:39.922  INFO 31736 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29 22:52:40.986  WARN 31736 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-29 22:52:41.317  INFO 31736 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-06-29 22:52:41.995  INFO 31736 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2022-06-29 22:52:42.010  INFO 31736 --- [main] com.nowcoder.community.LoggerTests       : Started LoggerTests in 7.788 seconds (JVM running for 9.161)
+2022-06-29 22:52:42.208  INFO 31736 --- [main] com.nowcoder.community.LoggerTests       : ingo log
+2022-06-29 22:52:42.208  WARN 31736 --- [main] com.nowcoder.community.LoggerTests       : warn log
+2022-06-29 22:52:42.209 ERROR 31736 --- [main] com.nowcoder.community.LoggerTests       : error log
+2022-06-29 22:52:42.403  INFO 31736 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29 22:52:42.406  INFO 31736 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-29 22:52:42.421  INFO 31736 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-29 22:55:55.774  INFO 33580 --- [main] com.nowcoder.community.LoggerTests       : Starting LoggerTests using Java 1.8.0_121 on LAPTOP-UJO7RRHB with PID 33580 (started by hp in D:\MyStudy_22\Work\Spring Work\community)
+2022-06-29 22:55:55.776  INFO 33580 --- [main] com.nowcoder.community.LoggerTests       : No active profile set, falling back to 1 default profile: "default"
+2022-06-29 22:55:56.885  INFO 33580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-06-29 22:55:56.887  INFO 33580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-06-29 22:55:56.906  INFO 33580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 JDBC repository interfaces.
+2022-06-29 22:55:56.918  INFO 33580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-06-29 22:55:56.921  INFO 33580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-29 22:55:56.928  INFO 33580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2022-06-29 22:55:57.671  INFO 33580 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-29 22:55:57.938  INFO 33580 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-29 22:55:58.118  INFO 33580 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-29 22:55:58.170  INFO 33580 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-29 22:55:58.342  INFO 33580 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-29 22:55:58.820  INFO 33580 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2022-06-29 22:55:59.014  INFO 33580 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-29 22:55:59.025  INFO 33580 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29 22:56:00.060  WARN 33580 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-29 22:56:00.300  INFO 33580 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-06-29 22:56:00.872  INFO 33580 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2022-06-29 22:56:00.886  INFO 33580 --- [main] com.nowcoder.community.LoggerTests       : Started LoggerTests in 5.613 seconds (JVM running for 6.803)
+2022-06-29 22:56:00.999  INFO 33580 --- [main] com.nowcoder.community.LoggerTests       : info log
+2022-06-29 22:56:00.999  WARN 33580 --- [main] com.nowcoder.community.LoggerTests       : warn log
+2022-06-29 22:56:01.000 ERROR 33580 --- [main] com.nowcoder.community.LoggerTests       : error log
+2022-06-29 22:56:01.168  INFO 33580 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29 22:56:01.170  INFO 33580 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-29 22:56:01.180  INFO 33580 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-29 22:57:52.215  INFO 25852 --- [main] com.nowcoder.community.LoggerTests       : Starting LoggerTests using Java 1.8.0_121 on LAPTOP-UJO7RRHB with PID 25852 (started by hp in D:\MyStudy_22\Work\Spring Work\community)
+2022-06-29 22:57:52.220  INFO 25852 --- [main] com.nowcoder.community.LoggerTests       : No active profile set, falling back to 1 default profile: "default"
+2022-06-29 22:57:53.485  INFO 25852 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-06-29 22:57:53.487  INFO 25852 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-06-29 22:57:53.501  INFO 25852 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JDBC repository interfaces.
+2022-06-29 22:57:53.514  INFO 25852 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-06-29 22:57:53.515  INFO 25852 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-29 22:57:53.524  INFO 25852 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2022-06-29 22:57:54.255  INFO 25852 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-29 22:57:54.519  INFO 25852 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-29 22:57:54.713  INFO 25852 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-29 22:57:54.770  INFO 25852 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-29 22:57:54.946  INFO 25852 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-29 22:57:55.388  INFO 25852 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2022-06-29 22:57:55.567  INFO 25852 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-29 22:57:55.578  INFO 25852 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29 22:57:56.512  WARN 25852 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-29 22:57:56.792  INFO 25852 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-06-29 22:57:57.350  INFO 25852 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2022-06-29 22:57:57.365  INFO 25852 --- [main] com.nowcoder.community.LoggerTests       : Started LoggerTests in 5.616 seconds (JVM running for 6.719)
+2022-06-29 22:57:57.471  INFO 25852 --- [main] com.nowcoder.community.LoggerTests       : info log
+2022-06-29 22:57:57.471  WARN 25852 --- [main] com.nowcoder.community.LoggerTests       : warn log
+2022-06-29 22:57:57.472 ERROR 25852 --- [main] com.nowcoder.community.LoggerTests       : error log
+2022-06-29 22:57:57.642  INFO 25852 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29 22:57:57.645  INFO 25852 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-29 22:57:57.655  INFO 25852 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-29 22:58:35.912  INFO 38384 --- [main] com.nowcoder.community.LoggerTests       : Starting LoggerTests using Java 1.8.0_121 on LAPTOP-UJO7RRHB with PID 38384 (started by hp in D:\MyStudy_22\Work\Spring Work\community)
+2022-06-29 22:58:35.915 DEBUG 38384 --- [main] com.nowcoder.community.LoggerTests       : Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-06-29 22:58:35.916  INFO 38384 --- [main] com.nowcoder.community.LoggerTests       : No active profile set, falling back to 1 default profile: "default"
+2022-06-29 22:58:36.914  INFO 38384 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-06-29 22:58:36.917  INFO 38384 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-06-29 22:58:36.933  INFO 38384 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
+2022-06-29 22:58:36.945  INFO 38384 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-06-29 22:58:36.947  INFO 38384 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-29 22:58:36.954  INFO 38384 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2022-06-29 22:58:37.768  INFO 38384 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-29 22:58:38.046  INFO 38384 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-29 22:58:38.263  INFO 38384 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-29 22:58:38.334  INFO 38384 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-29 22:58:38.524  INFO 38384 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-29 22:58:38.973  INFO 38384 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2022-06-29 22:58:39.156  INFO 38384 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-29 22:58:39.166  INFO 38384 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29 22:58:40.082  WARN 38384 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-29 22:58:40.340  INFO 38384 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-06-29 22:58:40.903  INFO 38384 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2022-06-29 22:58:40.916  INFO 38384 --- [main] com.nowcoder.community.LoggerTests       : Started LoggerTests in 5.465 seconds (JVM running for 6.601)
+2022-06-29 22:58:41.011 DEBUG 38384 --- [main] com.nowcoder.community.LoggerTests       : debug log
+2022-06-29 22:58:41.011  INFO 38384 --- [main] com.nowcoder.community.LoggerTests       : info log
+2022-06-29 22:58:41.011  WARN 38384 --- [main] com.nowcoder.community.LoggerTests       : warn log
+2022-06-29 22:58:41.011 ERROR 38384 --- [main] com.nowcoder.community.LoggerTests       : error log
+2022-06-29 22:58:41.187  INFO 38384 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29 22:58:41.189  INFO 38384 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-29 22:58:41.199  INFO 38384 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
